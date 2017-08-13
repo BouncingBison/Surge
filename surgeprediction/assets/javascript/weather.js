@@ -17,8 +17,8 @@
 
 
 $.ajax({
-    url: "http://api.wunderground.com/api/4d5b63943d49967d/conditions/q/autoip.json",
-    url: "http://api.wunderground.com/api/4d5b63943d49967d/geolookup/q/autoip.json",
+    url: "https://api.wunderground.com/api/4d5b63943d49967d/conditions/q/autoip.json",
+    url: "https://api.wunderground.com/api/4d5b63943d49967d/geolookup/q/autoip.json",
     dataType: "json",
     success: function(response) {
         console.log(response);
